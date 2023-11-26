@@ -6,13 +6,11 @@ import {notes} from './assets/notes.js'
 import { PlusButton } from './components/PlusButton.jsx'
 
 function App() {
-  console.log(notes[0])
 
   return (
     <div>
       <Title />
       <List notelist={notes}/>
-      <PlusButton/>
     </div>
   )
 }

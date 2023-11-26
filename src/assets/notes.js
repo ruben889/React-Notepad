@@ -3,7 +3,7 @@
 var d = new Date()
 let i = 0
 
-export const notes = [
+export var notes = [
     {
         noteID: crypto.randomUUID(),
         Title: "Sample",
