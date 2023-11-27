@@ -24,14 +24,14 @@ export var notes = [
     },
     {
         noteID: crypto.randomUUID(),
-        Title: "Nicotine Addiction",
-        Text: "Is Overrated as hell",
+        Title: "Nootropics",
+        Text: "Lions Mane, PhosphatiDylserine",
         Date:  d.toLocaleDateString()
     },
     {
         noteID: crypto.randomUUID(),
-        Title: "Dumb Mistakes",
-        Text: "Are Frustrating as Hell to Make",
+        Title: "Go Get some groceries",
+        Text: " Ovengold turkey, Chipotle Gouda Cheese, Pop tarts",
         Date:  d.toLocaleDateString()
     },
     {

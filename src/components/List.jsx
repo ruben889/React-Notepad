@@ -3,6 +3,7 @@ import { useCallback, useEffect } from "react";
 import { PlusButton } from "./PlusButton";
 
 
+
 export function List({notelist})
 {
  
@@ -46,7 +47,7 @@ export function List({notelist})
 function Note({ID, Title, Text, Date, handleDelete, handleEdit})
 {
  const [isHighlighted, setHighlight] = useState(false)
- var notHighlighted = "border border-black-300"
+ var notHighlighted = "bg-white border border-black-300"
  var Highlighted = "border border-black-300 shadow-md hover:shadow-lg bg-blue-100"
  const [noteSelect, setNoteSelect] = useState(false)
 
