@@ -12,7 +12,7 @@ export var notes = [
     } ,
     {
         noteID: crypto.randomUUID(),
-        Title: "Budokai Tenkaichi",
+        Title: "Budokai Tenkaichi 4",
         Text: "Gotta Play it",
         Date:  d.toLocaleDateString()
     } ,
@@ -34,12 +34,7 @@ export var notes = [
         Text: " Ovengold turkey, Chipotle Gouda Cheese, Pop tarts",
         Date:  d.toLocaleDateString()
     },
-    {
-        noteID: crypto.randomUUID(),
-        Title: "Favorite Fighters",
-        Text: "Edson Barboza, Floyd Mayweather, Dustin Porier",
-        Date:  d.toLocaleDateString()
-    },
+
    
     
 ]
