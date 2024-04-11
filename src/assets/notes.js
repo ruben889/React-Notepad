@@ -3,7 +3,7 @@
 var d = new Date()
 let i = 0
 
-export const notes = [
+export var notes = [
     {
         noteID: crypto.randomUUID(),
         Title: "Sample",
@@ -12,7 +12,7 @@ export const notes = [
     } ,
     {
         noteID: crypto.randomUUID(),
-        Title: "Budokai Tenkaichi",
+        Title: "Budokai Tenkaichi 4",
         Text: "Gotta Play it",
         Date:  d.toLocaleDateString()
     } ,
@@ -24,22 +24,17 @@ export const notes = [
     },
     {
         noteID: crypto.randomUUID(),
-        Title: "Nicotine Addiction",
-        Text: "Is Overrated as hell",
+        Title: "Nootropics",
+        Text: "Lions Mane, PhosphatiDylserine",
         Date:  d.toLocaleDateString()
     },
     {
         noteID: crypto.randomUUID(),
-        Title: "Dumb Mistakes",
-        Text: "Are Frustrating as Hell to Make",
+        Title: "Go Get some groceries",
+        Text: " Ovengold turkey, Chipotle Gouda Cheese, Pop tarts",
         Date:  d.toLocaleDateString()
     },
-    {
-        noteID: crypto.randomUUID(),
-        Title: "Favorite Fighters",
-        Text: "Edson Barboza, Floyd Mayweather, Dustin Porier",
-        Date:  d.toLocaleDateString()
-    },
+
    
     
 ]
